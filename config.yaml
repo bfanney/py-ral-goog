@@ -1,0 +1,6 @@
+rally:
+   url: "rally1.rallydev.com"
+   apikey: "123abc"
+   workspace: "Workspace"
+   project: "Marketing"
+   logging: False
