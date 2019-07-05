@@ -33,4 +33,10 @@ Use the fields argument to write out a comma seperated listof metadata fields yo
   
 <h2>Google Sheet capabilities</h2>
 
+<h3>Download a Google Sheet as a CSV</h3>
 
+<code>python3 py-ral-goog.py setGoogleSheet --docid 1XvG7yLFmNPWrRUF_bifos-slAQo2ieuVBcHo8LNVUn0 --tab Frontend --file file.csv</code>
+
+<h3>Compare a CSV file against a Google Sheet and identify new rows in the Google Sheet</h3>
+
+<code>python3 py-ral-goog.py getNewRows --docid 1eB_amBkQKIU58ivzJ4Yyqefhc1XPWbTQ4BDtHdSJKbQ --tab Sheet1 --file file.csv</code>
