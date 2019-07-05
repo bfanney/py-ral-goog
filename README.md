@@ -27,7 +27,7 @@ Use the fields argument to write out a comma seperated listof metadata fields yo
 
 <h3>Get all of the tasks for a particular user story.</h3>
 
-<code>py-ral-goog.py getTasks --us US12345</code>
+<code>python3 py-ral-goog.py getTasks --us US12345</code>
 
 <h3>Set a task for a particular user story</h3>
 
