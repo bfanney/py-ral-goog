@@ -21,9 +21,9 @@ Use the fields argument to write out a comma seperated listof metadata fields yo
 
 <h3>Create features and user stories</h3>
 
-<code>python3 py-ral-goog.py setFeature --fields "{'Name':'Testing123', 'Description':'DeleteMe'}"</code>
+<code>python3 py-ral-goog.py setFeature --setfields "{'Name':'Testing123', 'Description':'DeleteMe'}"</code>
 
-<code>python3 py-ral-goog.py setUserStory --fields "{'Name':name,'PortfolioItem':'1234567891011','Description':'TextHere','Language':'ES','RequestedBy':'NameHere'}"</code>.
+<code>python3 py-ral-goog.py setUserStory --setfields "{'Name':name,'PortfolioItem':'1234567891011','Description':'TextHere','Language':'ES','RequestedBy':'NameHere'}"</code>.
 
 <h3>Get all of the tasks for a particular user story.</h3>
 
@@ -31,7 +31,7 @@ Use the fields argument to write out a comma seperated listof metadata fields yo
 
 <h3>Set a task for a particular user story</h3>
 
-<code>python3 py-ral-goog.py setTask --fields "{'Name':'NameHere','WorkProduct':1234567891011}"</code>
+<code>python3 py-ral-goog.py setTask --getfields "{'Name':'NameHere','WorkProduct':1234567891011}"</code>
   
 <h2>Google Sheet capabilities</h2>
 
